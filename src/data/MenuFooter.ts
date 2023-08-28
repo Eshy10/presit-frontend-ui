@@ -41,7 +41,7 @@ export const MENU_FOOTER = [
       menu: [
          {
             name: 'Blog',
-            link: '/',
+            link: '/blog',
          },
          {
             name: 'Products',
