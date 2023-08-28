@@ -1,0 +1,38 @@
+.cardWrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.cardCategoryWrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.cardNewsUrl {
+    
+}
+
+.cardCategory {
+
+ }
+ .cardDate {
+
+ }
+
+.cardContent {
+
+}
+
+.cardAuthor {
+   display: flex;
+   justify-content: space-between;
+}
+
+.cardAuthor p {
+
+}
+
+.cardAuthorUrl {
+
+}

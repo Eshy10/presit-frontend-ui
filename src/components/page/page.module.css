@@ -1,3 +1,22 @@
+.pageWrapper {
+    padding: 10px;
+}
+
 .page {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 574px);
+    gap: 80px;
+    background-color: #fcfcf5;
+    overflow: hidden;
  }
+
+ @media only screen and (min-width: 2560px) {
+    .pageWrapper {
+      width: 60%;
+      margin: auto;
+    }
+  }

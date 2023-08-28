@@ -1,3 +1,5 @@
+import Navbar from 'components/navbar';
+import Footer from 'components/footer';
 import pageStyles from './page.module.css';
 
 interface PageProps {
@@ -5,7 +7,13 @@ interface PageProps {
 }
 
 const Page = ({ children }: PageProps) => {
-   return <div className={pageStyles.page}>{children}</div>;
+   return (
+      <section className={pageStyles.pageWrapper}>
+         <Navbar />
+         <div className={pageStyles.page}>{children}</div>
+         <Footer />
+      </section>
+   );
 };
 
 export default Page;

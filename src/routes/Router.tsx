@@ -6,9 +6,9 @@ import Page from 'components/page';
 
 import paths from 'routes/path';
 
-const Home = lazy(() => import('pages/Home'));
+const Home = lazy(() => import('pages/home/Home'));
 const PageNotFound = lazy(() => import('pages/PageNotFound'));
-const Blog = lazy(() => import('pages/Blog'));
+const Blog = lazy(() => import('pages/blog/Blog'));
 
 interface Routes {
    path: string;
