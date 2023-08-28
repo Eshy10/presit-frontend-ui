@@ -1,28 +1,47 @@
 .BlogCta {
-   width: 1200px;
    height: 391px;
    border-radius: 12px;
    background: #0a2640;
    display: flex;
    justify-content: center;
-   background-image: url('../../images/boldo-logo.svg');
-   background-size: 103px 103px;
+   flex-direction: column;
+   align-items: center;
+   background-image: url('../../images/Ellipse.svg');
    background-repeat: no-repeat, no-repeat, no-repeat;
-   background-position: top 49px left 537px;
+   background-position: top 0px right 0px;
+   margin: auto;
+   margin: 10rem 0rem;
 }
 
 .BlogCtaTitle {
-
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    width: 700px;
 }
 
 .InputWrapper {
-
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
 }
 
 .InputWrapper input {
-
+    width: 370px;
+    height: 56px;
+    border-radius: 240px;
+    border: 2px solid #FFF;
+    background: #FFF;
+    padding: 0px 20px;
 }
 
 .InputWrapper button {
-    
+    padding: 16px 56px;
+    width: 210px;
+    height: 60px;
+    margin-left: 2rem;
 }

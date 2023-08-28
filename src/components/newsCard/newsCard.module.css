@@ -1,36 +1,46 @@
 .cardWrapper {
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 298px;
 }
 
 .cardCategoryWrapper {
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    margin-top: 1rem;
 }
 
 .cardNewsUrl {
-    
+
 }
 
 .cardCategory {
-
+    color: #0A2640;
+    font-weight: 700;
  }
- .cardDate {
-
+ .cardCategoryDate {
+    color: #777;
+    margin-left: 1rem;
  }
 
 .cardContent {
-
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 1rem;
+    height: 100px;
 }
 
 .cardAuthor {
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 .cardAuthor p {
-
+    color: #777;
+    margin-left: 1rem;
 }
 
 .cardAuthorUrl {

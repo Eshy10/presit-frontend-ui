@@ -1,5 +1,5 @@
 .pageWrapper {
-    padding: 10px;
+    padding: 50px;
 }
 
 .page {
@@ -10,7 +10,6 @@
     width: 100%;
     min-height: calc(100vh - 574px);
     gap: 80px;
-    background-color: #fcfcf5;
     overflow: hidden;
  }
 

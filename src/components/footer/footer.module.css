@@ -1,9 +1,69 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
+   padding-right: 200px;
 }
 
 .footerMenuWrapper {
-    display: flex;
-    flex-direction: column;
+   display: flex;
+   flex-direction: column;
 }
+
+.footerMenuWrapper h3 {
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 32px;
+   padding-bottom: 1rem;
+}
+
+.footerLeft {
+   width: 40%;
+}
+
+.footerContent,
+.footerReserved {
+   width: 300px;
+   padding-bottom: 3rem;
+   color: #777777;
+   line-height: 28px;
+   margin-top: 50px;
+}
+
+.footerRight {
+   display: flex;
+   justify-content: space-between;
+   flex: 1;
+}
+
+.footerMenu {
+   color: #777;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px;
+   padding: 20px 0px;
+}
+.footerMenuCareer {
+    display: flex;
+    align-items: center;
+}
+.tag {
+   display: flex;
+   padding: 1px 14px;
+   justify-content: center;
+   gap: 10px;
+   border-radius: 120px;
+   background: #65e4a3;
+   color: #0a2640;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px;
+   margin-left: 1rem;
+}
+
+@media only screen and (max-width: 1240px) {
+    .footer {
+   padding-right: 0px;
+    }
+  }
