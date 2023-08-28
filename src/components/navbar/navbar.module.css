@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navItems {
+    font-weight: 600;
+    color: #0A2640;
+    font-family: Open Sans;
+    line-height: 28px;
+}
